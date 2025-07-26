@@ -1,0 +1,27 @@
+{
+  "name": "playwright-bdd",
+  "version": "1.0.0",
+  "description": "This is playwright practice for BDD style cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test":"./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamgambhire/Playwright-BDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamgambhire/Playwright-BDD/issues"
+  },
+  "homepage": "https://github.com/shivamgambhire/Playwright-BDD#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "chai": "^5.2.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "playwright": "^1.54.1",
+    "prettier": "^3.6.2"
+  }
+}
